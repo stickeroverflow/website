@@ -7,4 +7,13 @@ html
     link(href="/css/index.css", rel="stylesheet")
     
     title!= config.title
-  body!= body
+  body
+    nav.navbar.container
+      a.navbar-item(href="/") 首页
+      //- .navbar-brand
+      //-   a(href="/") StickerOverflow
+      a.navbar-item(href="/categories/sticker") 所有贴纸
+      a.navbar-item 商店
+      a.navbar-item 博客
+      a.navbar-item 关于
+    !=body
