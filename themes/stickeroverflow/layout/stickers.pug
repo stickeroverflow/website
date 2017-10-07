@@ -1,0 +1,17 @@
+.container
+  .columns
+    each sticker in theme.stickers
+      .column.is-3
+        .card
+          if sticker.img
+            .card-image.center
+              figure.image
+                img(src='/images/sticker-icon/' + sticker.img)
+          .card-content
+            p!= sticker.title
+            p ¥ !{sticker.price || 6.9}
+          .card-footer
+            .card-footer-item
+              a(href=sticker.license_from, target="_blank").has-text-grey-dark !{sticker.license || 'LICENSE'}
+            //- .card-footer-item
+            //-   a(href=post.buy_link, target="_blank") 购买地址

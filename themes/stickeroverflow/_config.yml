@@ -1,1 +1,51 @@
 background: "//ox374gfao.bkt.clouddn.com/E996C845-C672-47F4-A418-E0DEBCA88296-4957-00000257C9BD5FF1_tmp.JPG"
+
+stickers:
+  - name: webpack
+    license:
+    license_from: https://github.com/webpack/media/blob/master/LICENSE
+    tags:
+      - frontend
+      - tool
+    buy_link:
+    img: webpack.png
+  - name: gulp
+    license: CC0
+    license_from:
+    tags:
+      - frontend
+      - tool
+    buy_link:
+    img: gulp.png
+  - name: vue
+    license: CC BY 4.0
+    license_from: https://github.com/vuejs/art/
+    tags:
+      - frontend
+      - library
+    buy_link:
+    img: vue.png
+  - name: bower
+    license:
+    license_from: https://bower.io/docs/about/
+    tags:
+      - frontend
+      - tool
+    buy_link:
+    img: bower.png
+  - name: babel
+    license: MIT License
+    license_from: https://github.com/babel/logo/blob/master/LICENSE
+    tags:
+      - frontend
+      - tool
+    buy_link:
+    img: babel.png
+  - name: Angular
+    license: CC BY 4.0
+    license_from: https://angular.io/presskit
+    tags:
+      - frontend
+      - framework
+    buy_link:
+    img: angular.png
