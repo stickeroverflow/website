@@ -1,21 +1,46 @@
-section#background.hero.is-large.is-primary
-  .hero-body
-    .container
-      h1.title!= config.title
-      h2.subtitle!= config.subtitle
-      a.button.is-light.is-medium.round FROM ¥6.9
+//- section#background.hero.is-large.is-primary
+//-   .hero-body
+//-     .container
+//-       h1.title!= config.title
+//-       h2.subtitle!= config.subtitle
+//-       a.button.is-light.is-medium.round FROM ¥6.9
 
-section#intro.container(style="margin-top: 2em;")
-  //- h1 StickerOverflow 优势
-  .columns
-    .column.is-4.content
-      h2 高质量
-      p StickerOverflow 的贴纸均由台湾厂商 
-        a(href="https://stickerhd.com/", target="_blank") StickerHD 
-        | 生产。材料层为加厚 PVC，表面有耐磨防水保护层，背面有低残胶背胶层。
-      p
-        a(href="") 了解更多
+//- section#intro.container(style="margin-top: 2em;")
+//-   //- h1 StickerOverflow 优势
+//-   .columns
+//-     .column.is-4.content
+//-       h2 高质量
+//-       p StickerOverflow 的贴纸均由台湾厂商 
+//-         a(href="https://stickerhd.com/", target="_blank") StickerHD 
+//-         | 生产。材料层为加厚 PVC，表面有耐磨防水保护层，背面有低残胶背胶层。
+//-       p
+//-         a(href="") 了解更多
 
-    .column.is-4.content
-      h2 尊重版权
-      p 我们在制作每款贴纸前，会遵守每个图标对应的 License. 
+//-     .column.is-4.content
+//-       h2 尊重版权
+//-       p 我们在制作每款贴纸前，会遵守每个图标对应的 License. 
+
+.container.center(style="margin-top: 5em;")
+  section.padding
+    img.logo(src="/images/logo.png")
+    h1.title!= config.title
+    h2.subtitle!= config.subtitle
+    a.button(href="").round.is-medium 官方商店
+  hr
+  section.intro.padding
+    h3.is-size-4 高质量
+    p StickerOverflow 的贴纸均由台湾厂商 
+      a(href="https://stickerhd.com/", target="_blank") StickerHD 
+      | 生产，保证贴纸质量。材料层为加厚 PVC，表面有耐磨防水保护层，背面有低残胶背胶层。
+    //- p
+    //-   a(href="") 了解更多
+  section.intro.padding
+    h3.is-size-4 重视版权
+    p 我们在制作每款贴纸前，会严格遵守每个图标对应的许可，不售卖不允许印刷商业行为的图标。
+    p
+      a 查看所有在售贴纸的对应许可
+
+  section.posts
+    h3.is-size-4 博客
+    each post in page.posts.toArray()
+      a(href=post.path)!= post.title
