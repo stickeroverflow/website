@@ -5,7 +5,8 @@ html
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(href="//cdn.bootcss.com/bulma/0.5.3/css/bulma.min.css", rel="stylesheet")
     link(href="/css/index.css", rel="stylesheet")
-    
+    if theme.favicon
+      link(rel="shortcut icon" href=theme.favicon)
     title!= config.title
   body
     nav.navbar.container
@@ -13,8 +14,8 @@ html
       //- .navbar-brand
       //-   a(href="/") StickerOverflow
       //- a.navbar-item(href="/stickers") 所有贴纸
-      a.navbar-item 商店
+      a.navbar-item(href=theme.store_url) 商店
       a.navbar-item 许可列表
     !=body
-    footer.center
+    footer.center.is-size-7
       p Copyright StickerOverflow 2017
