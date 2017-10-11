@@ -5,23 +5,23 @@ store_url: /
 background: "//ox374gfao.bkt.clouddn.com/E996C845-C672-47F4-A418-E0DEBCA88296-4957-00000257C9BD5FF1_tmp.JPG"
 
 stickers:
-  - name: webpack
+  - name: Webpack
     license:
     license_from: https://github.com/webpack/media/blob/master/LICENSE
     img: webpack.png
-  - name: gulp
+  - name: Gulp
     license: CC 0
     license_from:
     img: gulp.png
-  - name: vue
+  - name: Vue
     license: CC BY 4.0
     license_from: https://github.com/vuejs/art/
     img: vue.png
-  - name: bower
+  - name: Bower
     license:
     license_from: https://bower.io/docs/about/
     img: bower.png
-  - name: babel
+  - name: Babel
     license: MIT
     license_from: https://github.com/babel/logo/blob/master/LICENSE
     img: babel.png
