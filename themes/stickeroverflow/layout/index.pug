@@ -20,7 +20,7 @@
 //-       h2 尊重版权
 //-       p 我们在制作每款贴纸前，会遵守每个图标对应的 License. 
 
-.container.center(style="margin-top: 5rem;")
+.container.center
   section.padding
     img.logo(src="/images/logo.png")
     h1.title!= config.title
@@ -38,7 +38,7 @@
     h3.is-size-4 重视版权
     p 我们在制作每款贴纸前，会严格遵守每个图标对应的许可，不售卖不允许印刷商业行为的图标。
     p
-      a 查看所有在售贴纸的对应许可
+      a(href='/licenses') 查看所有在售贴纸的对应许可
 
   section.posts
     h3.is-size-4 博客

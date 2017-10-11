@@ -1,0 +1,20 @@
+.container.center
+  h1.is-size-3 许可列表
+
+  p 在售贴纸对应的许可
+
+  section(style='width: 512px; margin: 0 auto;').padding
+    table.table.is-bordered.is-striped.is-narrow.is-fullwidth
+      thead
+        tr
+          th Sticker
+          th License
+      tbody
+        each sticker in theme.stickers
+          tr
+            td!= sticker.name
+            td
+              if sticker.license_from
+                a(href=sticker.license_from, target='_blank')!= sticker.license || 'LICENSE'
+              else
+                span!= sticker.license || 'LICENSE'

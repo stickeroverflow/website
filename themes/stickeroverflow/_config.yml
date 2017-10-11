@@ -8,48 +8,42 @@ stickers:
   - name: webpack
     license:
     license_from: https://github.com/webpack/media/blob/master/LICENSE
-    tags:
-      - frontend
-      - tool
-    buy_link:
     img: webpack.png
   - name: gulp
-    license: CC0
+    license: CC 0
     license_from:
-    tags:
-      - frontend
-      - tool
-    buy_link:
     img: gulp.png
   - name: vue
     license: CC BY 4.0
     license_from: https://github.com/vuejs/art/
-    tags:
-      - frontend
-      - library
-    buy_link:
     img: vue.png
   - name: bower
     license:
     license_from: https://bower.io/docs/about/
-    tags:
-      - frontend
-      - tool
-    buy_link:
     img: bower.png
   - name: babel
-    license: MIT License
+    license: MIT
     license_from: https://github.com/babel/logo/blob/master/LICENSE
-    tags:
-      - frontend
-      - tool
-    buy_link:
     img: babel.png
   - name: Angular
     license: CC BY 4.0
     license_from: https://angular.io/presskit
-    tags:
-      - frontend
-      - framework
-    buy_link:
     img: angular.png
+  - name: React
+    license:
+    license_from:  https://worldvectorlogo.com/zh/terms-of-use
+  - name: JS
+    license: MIT
+    license_from: https://github.com/voodootikigod/logo.js/blob/master/LICENSE
+  - name: Docker
+    license:
+    license_from: https://www.docker.com/brand-guidelines
+  - name: TS
+    license: MIT
+    license_from: https://github.com/remojansen/logo.ts/blob/master/LICENSE
+  - name: VS Code
+    license: No License
+    license_from: https://github.com/auchenberg/vscode-logo-svg
+  - name: Git
+    license: CC BY 3.0
+    license_from: https://git-scm.com/downloads/logos
