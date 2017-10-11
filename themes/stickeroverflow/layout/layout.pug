@@ -1,13 +1,14 @@
 doctype html
 html
   head
+    != partial('_partial/ga')
     meta(charset="utf-8")
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(href="//cdn.bootcss.com/bulma/0.5.3/css/bulma.min.css", rel="stylesheet")
     link(href="/css/index.css", rel="stylesheet")
     if theme.favicon
       link(rel="shortcut icon" href=theme.favicon)
-    title!= config.title
+    title!= page.title ? page.title + ' - ' + config.title : config.title
   body
     nav.navbar.container(style='margin-bottom: 5em;')
       a.navbar-item(href="/") 首页
