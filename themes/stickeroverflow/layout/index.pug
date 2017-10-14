@@ -26,6 +26,13 @@
     h1.title!= config.title
     h2.subtitle!= config.subtitle
     a.button(href=theme.store_url).round.is-medium 官方商店
+
+    .vertical(style='margin-top: 1rem;')
+      .item
+        a(href=theme.weibo_url, target='_blank') 微博
+      .item
+        a(href='/' + config.feed.path) RSS
+
   hr
   section.intro.padding
     h3.is-size-4 高质量
