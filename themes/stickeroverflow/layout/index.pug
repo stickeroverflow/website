@@ -49,7 +49,8 @@
     p
       a(href='/licenses') 查看所有在售贴纸的对应许可
 
-  //- section.posts
-  //-   h3.is-size-4 博客
-  //-   each post in page.posts.toArray()
-  //-     a(href=post.path)!= post.title
+  section.posts
+    h3.is-size-4 博客
+    each post in page.posts.toArray()
+      p
+        a(href=post.path)!= post.title
