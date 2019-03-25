@@ -22,7 +22,7 @@
 
 .container.center
   section.padding
-    img.logo(src="/images/logo.png")
+    img.logo(src="/images/logo.JPG")
     h1.title!= config.title
     h2.subtitle!= config.subtitle
     a.button(href=theme.store_url).round.is-medium 官方商店
@@ -31,23 +31,21 @@
       .item
         a(href=theme.weibo_url, target='_blank') 微博
       .item
-        a(href=theme.github_url, target='_blank') Github
+        a(href=theme.github_url, target='_blank') 贴纸请求
       .item
         a(href='/' + config.feed.path) RSS
 
   hr
-  section.intro.padding
-    h3.is-size-4 高质量
-    p StickerOverflow 的贴纸均由台湾厂商 
-      a(href="https://stickerhd.com/", target="_blank") StickerHD 
-      | 生产，保证贴纸质量。材料层为加厚 PVC，表面有耐磨防水保护层，背面有低残胶背胶层。
+  //- section.intro.padding
+  //-   h3.is-size-4 高质量
+  //-   p StickerOverflow 的贴纸材料层为加厚 PVC，表面有耐磨防水保护层，背面有低残胶背胶层。
     //- p
     //-   a(href="") 了解更多
-  section.intro.padding
-    h3.is-size-4 重视版权
-    p 我们在制作每款贴纸前，会严格遵守每个图标对应的许可，不售卖不允许印刷商业行为的图标。
-    p
-      a(href='/licenses') 查看所有在售贴纸的对应许可
+  //- section.intro.padding
+  //-   h3.is-size-4 重视版权
+  //-   p 我们在制作每款贴纸前，会严格遵守每个图标对应的许可，不售卖不允许印刷商业行为的图标。
+  //-   p
+  //-     a(href='/licenses') 查看所有在售贴纸的对应许可
 
   section.posts
     h3.is-size-4 博客
